@@ -18,8 +18,8 @@ export const loginUser = (email, pass) => {
 
 
 // 
-export const provideLoginToken = (username, password) => {
-    let request = loginUser(username, password);
+export const provideLoginToken = (email, password) => {
+    let request = loginUser(email, password);
 
     return new Promise((resolve, reject) => {
         try{
@@ -48,6 +48,22 @@ export const requestWithToken = (method, urlSuffix, token, body = {}) => {
         },
         failOnStatusCode: false, 
         body
+    };
+
+    return cy.request(requestOptions);
+}
+
+// 
+export const resetDatabase = token => {
+    let requestOptions = {
+        method: 'DELETE', 
+        url: `${apiUrl}/admin/tables/truncate`,
+        headers: {
+            'Authorization': `Bearer ${token}`,
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        failOnStatusCode: false
     };
 
     return cy.request(requestOptions);

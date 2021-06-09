@@ -15,6 +15,44 @@ export const courseSeeds = [
         "endDate": "2021-12-31",
         "hours": 8,
         "image": "https://studiipaliative.odoo.com/web/image/slide.channel/9/image_1920/Introducere%20%C3%AEn%20%C3%AEngrijire%20paliativ%C4%83%20%2812%20ore%29?unique=0d0bcc4",
+        "sections": [
+            {
+                "name": "Sectiunea 1 adaugata automat",
+                "visible": true,
+                "contents": [
+                    {
+                        "name": "Continut 1.1",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Continut 1.2",
+                        "type": "VIDEO",
+                        "url": "https://www.youtube.com/embed/eUaU6S-DtIw",
+                        "visible": true
+                    },
+                ]
+            },
+            {
+                "name": "Sectiunea 2 adaugata automat",
+                "visible": true,
+                "contents": [
+                    {
+                        "name": "Continut 2.1",
+                        "type": "VIDEO",
+                        "url": "https://www.youtube.com/embed/rfeqVGf_PB0",
+                        "visible": true
+                    },
+                    {
+                        "name": "Continut 2.2",
+                        "type": "PDF",
+                        "url": "https://www.who.int/cancer/media/FINAL-PalliativeCareModule.pdf",
+                        "visible": true
+                    },
+                ]
+            }
+        ]
     },
     {
         "name": "Introducere în îngrijire paliativă",
@@ -83,6 +121,146 @@ export const courseSeeds = [
         "endDate": "2021-12-31",
         "hours": 36,
         "image": "https://studiipaliative.odoo.com/web/image/slide.channel/20/image_1920/Practici%20avansate%20%C3%AEn%20%C3%AEngrijiri%20paliative%20%2836%20ore%29?unique=fd65884",
+        "sections": [
+            {
+                "name": "Abordarea simptomelor și suferinței fizice",
+                "visible": true,
+                "contents": [
+                    {
+                        "name": "Durere: evaluare, managment durere totală",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Îngrijirea paliativă în afecțiuni non-oncologice",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Fatigabilitatea pacientului",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Mobilizarea pacientului în condiții de siguranță",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "ZOOM 1 Abordarea simptomelor si suferintei fizice",
+                        "type": "ZOOM",
+                        "url": "https://scoalainformala.zoom.us/my/florinnitu?pwd=a3FTelRVV0RXRVVQb3VyYnlXclMzUT09",
+                        "visible": true
+                    },
+                ]
+            },
+            {
+                "name": "Aspecte psihosociale și spirituale",
+                "visible": true,
+                "contents": [
+                    {
+                        "name": "Aspecte psihosociale în îngrijirea paliativă- pacientul și familia",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Suportul spiritual în asistența bolnavului din îngrijirea paliativă",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "ZOOM 2 Evaluarea pacientului",
+                        "type": "ZOOM",
+                        "url": "https://scoalainformala.zoom.us/my/florinnitu?pwd=a3FTelRVV0RXRVVQb3VyYnlXclMzUT09",
+                        "visible": true
+                    },
+                ]
+            },
+            {
+                "name": "Pierdere și doliu",
+                "visible": true,
+                "contents": [
+                    {
+                        "name": "Moartea- temeri. percepții. abordare individuală",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Reacții emoționale la pierdere",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "ZOOM 3 Pierdere si doliu",
+                        "type": "ZOOM",
+                        "url": "https://scoalainformala.zoom.us/my/florinnitu?pwd=a3FTelRVV0RXRVVQb3VyYnlXclMzUT09",
+                        "visible": true
+                    },
+                ]
+            },
+            {
+                "name": "Burnout",
+                "visible": true,
+                "contents": [
+                    {
+                        "name": "Între sănătate și boală",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Burnout",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Managementul stresului",
+                        "type": "PDF",
+                        "url": "https://scoalainformala.zoom.us/my/florinnitu?pwd=a3FTelRVV0RXRVVQb3VyYnlXclMzUT09",
+                        "visible": true
+                    },
+                    {
+                        "name": "QUIZ Burnout",
+                        "type": "QUIZ",
+                        "url": "https://scoalainformala.zoom.us/my/florinnitu?pwd=a3FTelRVV0RXRVVQb3VyYnlXclMzUT09",
+                        "visible": true
+                    },
+                ]
+            },
+            {
+                "name": "CERTIFICARE test grila",
+                "visible": true,
+                "contents": [
+                    {
+                        "name": "ZOOM 4 Reflectie asupra unui pacient",
+                        "type": "ZOOM",
+                        "url": "https://scoalainformala.zoom.us/my/florinnitu?pwd=a3FTelRVV0RXRVVQb3VyYnlXclMzUT09",
+                        "visible": true
+                    },
+                    {
+                        "name": "Test grilă de certificare",
+                        "type": "QUIZ",
+                        "url": "https://scoalainformala.zoom.us/my/florinnitu?pwd=a3FTelRVV0RXRVVQb3VyYnlXclMzUT09",
+                        "visible": true
+                    },
+                    {
+                        "name": "Evaluare curs Practici avansate IP",
+                        "type": "QUIZ",
+                        "url": "https://scoalainformala.zoom.us/my/florinnitu?pwd=a3FTelRVV0RXRVVQb3VyYnlXclMzUT09",
+                        "visible": true
+                    },
+                ]
+            }
+        ]
     },
     {
         "name": "Îngrijiri paliative pentru echipa interdisciplinara",
