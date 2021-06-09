@@ -1,0 +1,16 @@
+{
+    "baseUrl": "https://edu-hospice-api.herokuapp.com",
+
+    "apiUrl": "https://edu-hospice-api.herokuapp.com/api",
+
+    "authData": {
+        "admin": {
+            "username": "admin.user@test.com",
+            "password": "testpassword"
+        },
+        "student": {
+            "username": "student.user@test.com",
+            "password": "testpassword"
+        }
+    }
+}
