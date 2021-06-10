@@ -51,7 +51,6 @@ describe('Register the default user to courses', () => {
                     })
                 });
             }
-               // /api/admin/users/{userId}/courses/{courseId}/approve
         });
     });
 })
