@@ -17,37 +17,79 @@ export const courseSeeds = [
         "image": "https://studiipaliative.odoo.com/web/image/slide.channel/9/image_1920/Introducere%20%C3%AEn%20%C3%AEngrijire%20paliativ%C4%83%20%2812%20ore%29?unique=0d0bcc4",
         "sections": [
             {
-                "name": "Sectiunea 1 adaugata automat",
+                "name": "Materiale curs",
                 "visible": true,
                 "contents": [
                     {
-                        "name": "Continut 1.1",
+                        "name": "Introducere în etică",
                         "type": "PDF",
                         "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
                         "visible": true
                     },
                     {
-                        "name": "Continut 1.2",
-                        "type": "VIDEO",
-                        "url": "https://www.youtube.com/embed/eUaU6S-DtIw",
-                        "visible": true
-                    },
-                ]
-            },
-            {
-                "name": "Sectiunea 2 adaugata automat",
-                "visible": true,
-                "contents": [
-                    {
-                        "name": "Continut 2.1",
-                        "type": "VIDEO",
-                        "url": "https://www.youtube.com/embed/rfeqVGf_PB0",
-                        "visible": true
-                    },
-                    {
-                        "name": "Continut 2.2",
+                        "name": "Principii etice",
                         "type": "PDF",
-                        "url": "https://www.who.int/cancer/media/FINAL-PalliativeCareModule.pdf",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Dileme etice",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Reguli - Confidențialitatea",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Reguli - Consimțământul informat",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Quiz Consimțământ informat",
+                        "type": "QUIZ",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Reguli - Comunicarea adevărului",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Modele de relații",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Neinițierea/oprirea tratamentului",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Futilitatea",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Certificare ETICA AM",
+                        "type": "PDF",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Evaluare curs Etică",
+                        "type": "QUIZ",
+                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
                         "visible": true
                     },
                 ]

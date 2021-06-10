@@ -1,9 +1,23 @@
 const apiUrl = Cypress.config('apiUrl');
 
 
+// parse a JWT Token
+export const parseJwt = (token, property = null) => {
+    try {
+        let tokenData = JSON.parse(atob(token.split('.')[1]));
+        return property === null ? tokenData : tokenData[property];
+    } catch (e) {
+      return null;
+    }
+  };
+
+
+
+
+
 // login user
 export const loginUser = (email, pass) => {
-    let requestOptins = {
+    let requestOptions = {
         method: 'POST', 
         url: `${apiUrl}/auth/login`,
         failOnStatusCode: false, 
@@ -13,7 +27,7 @@ export const loginUser = (email, pass) => {
         }
     };
 
-    return cy.request(requestOptins);
+    return cy.request(requestOptions);
 }
 
 

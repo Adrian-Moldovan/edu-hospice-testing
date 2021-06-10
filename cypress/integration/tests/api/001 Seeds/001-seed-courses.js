@@ -3,7 +3,6 @@ import { courseSeeds } from '../../../../support/seeds/courses';
 
 const username = Cypress.config('authData').admin.username;
 const password = Cypress.config('authData').admin.password;
-const apiUrl = Cypress.config('apiUrl');
 
 
 describe('Seed the database', () => {

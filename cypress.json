@@ -12,5 +12,27 @@
             "username": "student.user@test.com",
             "password": "testpassword"
         }
-    }
+    },
+
+    "registrationAccounts": [
+        {
+            "firstName": "Adrian",
+                "lastName": "Moldovan",
+                "email": "ma.moldovan@gmail.com",
+                "phoneNumber": "07665111317",
+                "password": "11aaAA!!",
+                "confirmPassword": "11aaAA!!",
+                "communicationViaEmail": true,
+                "communicationViaPhone": true,
+                "employerCity": "Sacele",
+                "employerCounty": "Brasov",
+                "employerName": "Fict IV SRL",
+                "gdpr": true,
+                "otherProfessions": "artist",
+                "professions": [
+                  "NURSE"
+                ],
+                "termsAndConditions": true
+        }
+    ]
 }
