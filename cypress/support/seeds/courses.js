@@ -23,61 +23,61 @@ export const courseSeeds = [
                     {
                         "name": "Introducere în etică",
                         "type": "PDF",
-                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "url": "https://hospice.siit.ro/cursuri/etica-in-ingrijiri-paliative/01.pdf",
                         "visible": true
                     },
                     {
                         "name": "Principii etice",
                         "type": "PDF",
-                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "url": "https://hospice.siit.ro/cursuri/etica-in-ingrijiri-paliative/02.pdf",
                         "visible": true
                     },
                     {
                         "name": "Dileme etice",
                         "type": "PDF",
-                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "url": "https://hospice.siit.ro/cursuri/etica-in-ingrijiri-paliative/03.pdf",
                         "visible": true
                     },
                     {
                         "name": "Reguli - Confidențialitatea",
                         "type": "PDF",
-                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "url": "https://hospice.siit.ro/cursuri/etica-in-ingrijiri-paliative/04.pdf",
                         "visible": true
                     },
                     {
                         "name": "Reguli - Consimțământul informat",
                         "type": "PDF",
-                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "url": "https://hospice.siit.ro/cursuri/etica-in-ingrijiri-paliative/05.pdf",
                         "visible": true
                     },
                     {
                         "name": "Quiz Consimțământ informat",
                         "type": "QUIZ",
-                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "url": "https://www.hospice.ro/wp-content/uploads/2019/08/HCS-raport-anual-2018-web2.pdf",
                         "visible": true
                     },
                     {
                         "name": "Reguli - Comunicarea adevărului",
                         "type": "PDF",
-                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "url": "https://hospice.siit.ro/cursuri/etica-in-ingrijiri-paliative/07.pdf",
                         "visible": true
                     },
                     {
                         "name": "Modele de relații",
                         "type": "PDF",
-                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "url": "https://hospice.siit.ro/cursuri/etica-in-ingrijiri-paliative/08.pdf",
                         "visible": true
                     },
                     {
                         "name": "Neinițierea/oprirea tratamentului",
                         "type": "PDF",
-                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "url": "https://hospice.siit.ro/cursuri/etica-in-ingrijiri-paliative/09.pdf",
                         "visible": true
                     },
                     {
                         "name": "Futilitatea",
                         "type": "PDF",
-                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "url": "https://hospice.siit.ro/cursuri/etica-in-ingrijiri-paliative/10.pdf",
                         "visible": true
                     },
                     {
@@ -89,7 +89,7 @@ export const courseSeeds = [
                     {
                         "name": "Evaluare curs Etică",
                         "type": "QUIZ",
-                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "url": "https://www.hospice.ro/wp-content/uploads/2019/08/HCS-raport-anual-2018-web2.pdf",
                         "visible": true
                     },
                 ]
@@ -112,6 +112,74 @@ export const courseSeeds = [
         "endDate": "2021-12-31",
         "hours": 12,
         "image": "https://studiipaliative.odoo.com/web/image/slide.channel/9/image_1920/Introducere%20%C3%AEn%20%C3%AEngrijire%20paliativ%C4%83%20%2812%20ore%29?unique=0d0bcc4",
+        "sections": [
+            {
+                "name": "Materiale curs",
+                "visible": true,
+                "contents": [
+                    {
+                        "name": "Quiz 01",
+                        "type": "QUIZ",
+                        "url": "https://www.hospice.ro/wp-content/uploads/2019/08/HCS-raport-anual-2018-web2.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Definitia ingrijirii paliative",
+                        "type": "PDF",
+                        "url": "https://hospice.siit.ro/cursuri/introducere-in-ingrijire-paliativa/02.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Principii si abordare holistica",
+                        "type": "PDF",
+                        "url": "https://hospice.siit.ro/cursuri/introducere-in-ingrijire-paliativa/03.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Mituri si realitate",
+                        "type": "PDF",
+                        "url": "https://hospice.siit.ro/cursuri/introducere-in-ingrijire-paliativa/04.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Beneficiarii îngrijirii paliative",
+                        "type": "PDF",
+                        "url": "https://hospice.siit.ro/cursuri/introducere-in-ingrijire-paliativa/05.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Niveluri de acordare a îngrijirii paliative",
+                        "type": "PDF",
+                        "url": "https://hospice.siit.ro/cursuri/introducere-in-ingrijire-paliativa/06.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Quiz 02",
+                        "type": "QUIZ",
+                        "url": "https://www.hospice.ro/wp-content/uploads/2019/08/HCS-raport-anual-2018-web2.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Tipuri de servicii",
+                        "type": "PDF",
+                        "url": "https://hospice.siit.ro/cursuri/introducere-in-ingrijire-paliativa/06.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Quiz certificare",
+                        "type": "QUIZ",
+                        "url": "https://www.hospice.ro/wp-content/uploads/2019/08/HCS-raport-anual-2018-web2.pdf",
+                        "visible": true
+                    },
+                    {
+                        "name": "Quiz evaluare curs",
+                        "type": "QUIZ",
+                        "url": "https://www.hospice.ro/wp-content/uploads/2019/08/HCS-raport-anual-2018-web2.pdf",
+                        "visible": true
+                    },
+                ]
+            }
+        ]
     },
     {
         "name": "Îngrijiri paliative de bază 1",

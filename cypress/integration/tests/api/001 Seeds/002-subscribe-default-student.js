@@ -8,7 +8,7 @@ const adminPassword = Cypress.config('authData').admin.password;
 const studentUsername = Cypress.config('authData').student.username;
 const studentPassword = Cypress.config('authData').student.password;
 
-let subscribeCourseIds = [1, 5];
+let subscribeCourseIds = [1, 2, 5];
 
 let studentId;
 
