@@ -2,7 +2,7 @@ export const courseSeeds = [
     {
         "name": "Etica în îngrijiri paliative",
         "shortDescription": "Cursul este recomandat CUI?",
-        "description": 'La sfârşitul modulului asistenții medicali vor fi capabili:"\n\r"• Să reflecteze asupra unor situaţii în care au apelat la principiile etice medicale"\n\r"• Să reflecteze la beneficiul cunoaşterii şi aplicării principiilor etice medicale"\n\r"• Să reflecteze asupra implicării problemelor de etică în orice decizie medicală"\n\r""\n\r"• Să definească etica"\n\r"• Să enumere cele 4 principii etice medicale"\n\r"• Să descrie aplicarea regulilor etice în îngrijirile paliative"\n\r"• Să enumere 3 modele de relaţie personal medical-pacient"\n\r"• Să descrie procesul de luare a deciziilor de tratament la pacienţii cu boli în stadiu avansat"\n\r""\n\r"• Să demonstreze abilitatea de a se folosi de principiile etice teoretice în luare de decizii clinice"\n\r"• Să demonstreze abilitatea de a rezolva dileme etice"\n\r"• Să demonstreze abilitatea de analiză a diferitelor relaţii personal medical-pacient',
+        "description": 'La sfârşitul modulului asistenții medicali vor fi capabili:<ul><li>• Să reflecteze asupra unor situaţii în care au apelat la principiile etice medicale</li><li>• Să reflecteze la beneficiul cunoaşterii şi aplicării principiilor etice medicale</li><li>• Să reflecteze asupra implicării problemelor de etică în orice decizie medicală</li></ul><ul><li>• Să definească etica"</li><li>• Să enumere cele 4 principii etice medicale</li><li>• Să descrie aplicarea regulilor etice în îngrijirile paliative</li><li>• Să enumere 3 modele de relaţie personal medical-pacient</li><li>• Să descrie procesul de luare a deciziilor de tratament la pacienţii cu boli în stadiu avansat</li></ul><ul><li>• Să demonstreze abilitatea de a se folosi de principiile etice teoretice în luare de decizii clinice</li><li>• Să demonstreze abilitatea de a rezolva dileme etice</li><li>• Să demonstreze abilitatea de analiză a diferitelor relaţii personal medical-pacient</li></ul>',
         "accessDays": 21,
         "authors": "-",
         "courseRole": "MULTI_DISCIPLINARY",
@@ -53,7 +53,7 @@ export const courseSeeds = [
                     {
                         "name": "Quiz Consimțământ informat",
                         "type": "QUIZ",
-                        "url": "https://www.hospice.ro/wp-content/uploads/2019/08/HCS-raport-anual-2018-web2.pdf",
+                        "url": "https://forms.gle/2kouXP18Zw4iSbi77",
                         "visible": true
                     },
                     {
@@ -83,13 +83,13 @@ export const courseSeeds = [
                     {
                         "name": "Certificare ETICA AM",
                         "type": "PDF",
-                        "url": "https://www.medbox.org/preview/5b8d6000-f254-47e4-b61f-4f251fcc7b87/doc.pdf",
+                        "url": "https://hospice.siit.ro/cursuri/etica-in-ingrijiri-paliative/11.pdf",
                         "visible": true
                     },
                     {
                         "name": "Evaluare curs Etică",
                         "type": "QUIZ",
-                        "url": "https://www.hospice.ro/wp-content/uploads/2019/08/HCS-raport-anual-2018-web2.pdf",
+                        "url": "https://forms.gle/vP1pLPvwgT2AkSCV7",
                         "visible": true
                     },
                 ]
@@ -218,7 +218,7 @@ export const courseSeeds = [
     {
         "name": "Practici avansate în îngrijiri paliative",
         "shortDescription": "Curs dedicat exclusiv membrilor echipei interdisciplinare de ingrijiri paliative (asistenți sociali, psihologi, terapeuți, clerici, alt personal)",
-        "description": 'Curs dedicat exclusiv membrilor echipei interdisciplinare de ingrijiri paliative (asistenți sociali, psihologi, terapeuți, clerici, alt personal), care au finalizat in format fata catre fata primul modul de 24 de ore al Programului modular aprofundat de 60 de ore. Durata de parcurgere a cursului este de 4 saptamani"\n\r""\n\r\"Conditii de obtinere a certificatului:"\n\r"- participarea la cele 4 intalniri online cu lectorul (14:00-16:00, incepand cu 17 septembrie 2020- zoom1)"\n\r"- pregatirea si trimiterea pana la termenul limita a unei REFLECTII asupra unui pacient (prezentare caz- zoom 4)"\n\r"- finalizarea a minim 80% din testul grila final (20 intrebari in 30 minute, o singura incerare disponibila)"\n\r""\n\r"De pe un PC cu monitor mare cursul poate fi urmărit cel mai bine dar platforma este adaptată și pentru laptop sau smartphone."\n\r"Vă recomandăm să aveți la îndemână hârtie și creion pentru a rezolva exercițiile propuse în sesiuni."\n\r""\n\r"Acest curs a fost pregătit pentru Dvs. de HOSPICE Casa Speranței ©2020- Psiholog Doina Găman- formator cu experiență în servicii de paliație. Corina Dobă și Sorina Hașu- revizuire sesiuni, Laura Iosub- suport tehnic (0728 130081, L-V 9:00-17:00)."\n\r"',
+        "description": '<p>Curs dedicat exclusiv membrilor echipei interdisciplinare de ingrijiri paliative (asistenți sociali, psihologi, terapeuți, clerici, alt personal), care au finalizat in format fata catre fata primul modul de 24 de ore al Programului modular aprofundat de 60 de ore. Durata de parcurgere a cursului este de 4 saptamani</p>Conditii de obtinere a certificatului:<ul><li>participarea la cele 4 intalniri online cu lectorul (14:00-16:00, incepand cu 17 septembrie 2020- zoom1)</li><li>pregatirea si trimiterea pana la termenul limita a unei REFLECTII asupra unui pacient (prezentare caz- zoom 4)</li><li>finalizarea a minim 80% din testul grila final (20 intrebari in 30 minute, o singura incerare disponibila)</li></ul><p>De pe un PC cu monitor mare cursul poate fi urmărit cel mai bine dar platforma este adaptată și pentru laptop sau smartphone.</p><p>Vă recomandăm să aveți la îndemână hârtie și creion pentru a rezolva exercițiile propuse în sesiuni.</p><p>Acest curs a fost pregătit pentru Dvs. de HOSPICE Casa Speranței ©2020- Psiholog Doina Găman- formator cu experiență în servicii de paliație. Corina Dobă și Sorina Hașu- revizuire sesiuni, Laura Iosub- suport tehnic (0728 130081, L-V 9:00-17:00)</p>',
         "accessDays": 28,
         "authors": "Psiholog Doina Găman - formator cu experiență în servicii de paliație, Corina Dobă și Sorina Hașu - revizuire sesiuni, Laura Iosub - suport tehnic",
         "courseRole": "MULTI_DISCIPLINARY",

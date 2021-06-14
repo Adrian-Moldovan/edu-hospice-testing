@@ -16,22 +16,27 @@ describe('Register the default user to courses', () => {
     //
     it(`Logs in as the default user and subscribe to ${subscribeCourseIds.length} courses`, () => {
         provideLoginToken(studentUsername, studentPassword).then(token => {
-            studentId = parseJwt(token, 'sub');
-            for (let i = 0; i < subscribeCourseIds.length; i++) {
-                let requestOptions = {
-                    method: 'POST', 
-                    url: `${apiUrl}/users/${studentId}/courses/${subscribeCourseIds[i]}/register`,
-                    headers: {
-                        'Authorization': `Bearer ${token}`,
-                        'Accept': 'application/json',
-                        'Content-Type': 'application/json'
-                    },
-                    failOnStatusCode: false
+            // get the user id
+            requestWithToken('GET', 'users/current-user', token).then(response => {
+                expect(response.status).to.eq(200);
+
+                studentId = response.body.id;
+                for (let i = 0; i < subscribeCourseIds.length; i++) {
+                    let requestOptions = {
+                        method: 'POST', 
+                        url: `${apiUrl}/users/${studentId}/courses/${subscribeCourseIds[i]}/register`,
+                        headers: {
+                            'Authorization': `Bearer ${token}`,
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
+                        },
+                        failOnStatusCode: false
+                    }
+                    cy.request(requestOptions).then(response => {
+                        expect(response.status).to.eq(200);
+                    });
                 }
-                cy.request(requestOptions).then(response => {
-                    expect(response.status).to.eq(200);
-                });
-            }
+            });
         });
     });
 
